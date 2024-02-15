@@ -1,0 +1,58 @@
+.foot{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    .foot-history{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px;
+        .btn-history{
+            width: 120px;
+            height: 40px;
+        }
+    }
+    .foot-wish{
+        display: flex;
+        height: auto;
+        width: auto;
+        justify-content: flex-end;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+    .btn{
+        margin: 0 10px;
+        position: relative;
+        width: 240px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        p{
+            z-index: 1;
+            font-size: 19px;
+            color: #c6966d;
+            font-weight: bold;
+        }
+        img{
+            z-index: 0;
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .btn:hover{
+        img{
+            width: 106%;
+            height: 106%;
+            top: -3%;
+            left: -3%;
+        }
+    }
+}

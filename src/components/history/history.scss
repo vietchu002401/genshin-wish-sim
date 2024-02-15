@@ -1,0 +1,63 @@
+.history{
+    background-color: #ebebeb;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .tehat{
+        background-color: #cfcfcf;
+    }
+    table{
+        border:1px solid black;
+        min-width: 1200px;
+    }
+    th, td {
+        border:1px solid black;
+        padding: 20px;
+        text-align: center;
+        font-size: 19px;
+    }
+    th:nth-child(1){
+        width: 20%;
+    }
+    th:nth-child(2){
+        width: 55%;
+    }
+    .gold{
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+        color: #ffff5f;
+    }
+    .purple{
+        text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+        color: magenta;
+    }
+
+    .closing{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .pagination{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        font-size: 19px;
+        img{
+            height: 100%;
+            margin: 0 20px;
+            cursor: pointer;
+        }
+    }
+}

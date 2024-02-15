@@ -1,0 +1,15 @@
+.ui{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-banner:hover{
+    cursor: pointer;
+}
+.ui-banner{
+    margin: 10px;
+    height: 80px;
+}
